@@ -1,5 +1,6 @@
 
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
+            'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 
 print("limite phrase 255 caractères\n")
@@ -35,7 +36,6 @@ elif version == "déchiffrer":
     for i in range(len(alphabet)):
         alphabet.append(alphabet[i])
 
-
     def déchiffrage():
         for x in range(255):
             if lettre == " ":
@@ -50,4 +50,3 @@ elif version == "déchiffrer":
         done += déchiffrage()
 
     print(done)
-
