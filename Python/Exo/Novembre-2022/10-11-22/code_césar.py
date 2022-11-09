@@ -19,6 +19,8 @@ if version == "chiffrer":
         for x in range(len(alphabet)):
             if lettre == " ":
                 return " "
+            elif lettre == "'":
+                return "'"
             elif alphabet[x] == lettre:
                 return str(alphabet[x + decal])
         return "?"
