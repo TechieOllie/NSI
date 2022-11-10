@@ -37,9 +37,13 @@ elif version == "déchiffrer":
         alphabet.append(alphabet[i])
 
     def déchiffrage():
-        for x in range(255):
+        for x in range(len(alphabet)):
             if lettre == " ":
                 return " "
+            elif lettre == "'":
+                return "'"
+            elif lettre == "ç":
+                return "ç"
             elif alphabet[x] == lettre:
                 return str(alphabet[x - decal])
         return "?"
