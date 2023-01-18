@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --main-color: #271549;
@@ -8,17 +12,11 @@
 
 body {
     font-family: 'JetBrains Mono', monospace;
-    margin: 0;
-    padding: 0;
 }
 
 ul {
     margin-block-start: 0;
     margin-block-end: 0;
-}
-
-h1 {
-    text-align: center;
 }
 
 #navbar {
@@ -31,7 +29,7 @@ h1 {
 }
 
 #navbar>ul>li {
-    display: inline;
+    display: inline
 }
 
 #navbar>ul>li>a {
@@ -44,6 +42,7 @@ h1 {
     transition: color 0.3 ease-in;
     padding: 0px 15px;
 }
+
 
 #navbar>ul>li>a:hover {
     color: beige;
