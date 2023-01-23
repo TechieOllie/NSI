@@ -94,3 +94,30 @@ ul {
 #navbar>ul>li>a.link-active {
     color: burlywood;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 498px;
+    grid-template-rows: 50%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "joke photo-nantes"
+        ". .";
+}
+
+.joke {
+    grid-area: joke;
+    text-align: center;
+    margin-top: 50%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.photo-nantes {
+    grid-area: photo-nantes;
+}
+
+.photo-nantes img {
+    width: 100%;
+}
