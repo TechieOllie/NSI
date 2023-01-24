@@ -102,8 +102,7 @@ ul {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "joke photo-nantes"
-        ". .";
+        "joke photo-nantes";
 }
 
 .joke {
@@ -112,6 +111,7 @@ ul {
     margin-top: 50%;
     font-size: 24px;
     font-weight: 600;
+    color: var(--main-color);
 }
 
 .photo-nantes {
@@ -120,4 +120,22 @@ ul {
 
 .photo-nantes img {
     width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightsteelblue;
+}
+
+footer p {
+    align-self: center;
+}
+
+footer #imgC {
+    width: 10%;
+}
+
+footer #imgEPSI {
+    width: 90%;
 }
