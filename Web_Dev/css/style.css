@@ -108,12 +108,14 @@ ul {
 .joke-campus {
     grid-area: joke;
     text-align: center;
-    margin-top: 50%;
     font-size: 24px;
     font-weight: 600;
     color: var(--main-color);
     margin-left: 10%;
     margin-right: 10%;
+    display: grid;  
+    place-items: center;
+
 }
 
 .photo-nantes {
@@ -142,5 +144,8 @@ footer #imgEPSI {
     display: flex;
     text-align: center;
     margin: 20%;
+}
+
+#flash {
     color: red;
 }
