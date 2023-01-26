@@ -87,7 +87,7 @@ ul {
 
 #navbar>ul>li>a:hover {
     color: beige;
-    border: 0.5px solid whitesmoke;
+    border: 0.1px solid whitesmoke;
     border-radius: 5px;
 }
 
@@ -95,9 +95,30 @@ ul {
     color: burlywood;
 }
 
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        "Text-home Text-home Text-home"
+        ". . .";
+    place-items: center;
+}
+
+
+.Text-home {
+    grid-area: Text-home;
+    text-align: center;
+    margin-bottom: 10%;
+    color: #333;
+}
+
 .wrapper-campus {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50%;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -111,15 +132,34 @@ ul {
     font-size: 24px;
     font-weight: 600;
     color: var(--main-color);
-    margin-left: 10%;
-    margin-right: 10%;
-    display: grid;
-    place-items: center;
-
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.joke-campus a {
+    text-decoration: none;
+}
+
+.joke-campus a:hover {
+    color: #333;
+}
+
 
 .photo-nantes {
     grid-area: photo-nantes;
+}
+
+#img-nantes {
+    width: 100%;
+}
+
+@media (min-width: 800) {
+    #img-nantes {
+        width: auto;
+    }
 }
 
 footer {
