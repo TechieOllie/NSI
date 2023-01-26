@@ -151,3 +151,7 @@ footer #imgEPSI {
     text-decoration: none;
 }
 
+#flash:hover {
+    color: red;
+    animation: none;
+}

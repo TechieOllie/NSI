@@ -4,13 +4,26 @@ window.onload = function () {
 
 var flash = document.getElementById("flash");
 
-setInterval(function () {
-  if (flash.style.color === "red") {
-    flash.style.color = "white";
-  } else {
-    flash.style.color = "red";
-  }
-}, 200);
+var intervalId;
+flash.addEventListener("mouseover", stopFlash);
+flash.addEventListener("mouseout", startFlash);
+
+startFlash();
+
+function stopFlash() {
+  clearInterval(intervalId);
+  flash.style.color = "red";
+}
+
+function startFlash() {
+  intervalId = setInterval(function () {
+    if (flash.style.color === "red") {
+      flash.style.color = "white";
+    } else {
+      flash.style.color = "red";
+    }
+  }, 250);
+}
 
 var viewportWidth = window.innerWidth;
 var viewportHeight = window.innerHeight;
