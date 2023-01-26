@@ -113,7 +113,7 @@ ul {
     color: var(--main-color);
     margin-left: 10%;
     margin-right: 10%;
-    display: grid;  
+    display: grid;
     place-items: center;
 
 }
@@ -143,9 +143,11 @@ footer #imgEPSI {
 #porte-ouverte {
     display: flex;
     text-align: center;
-    margin: 20%;
+    margin: 14%;
 }
 
 #flash {
     color: red;
+    text-decoration: none;
 }
+
