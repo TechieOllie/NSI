@@ -195,3 +195,7 @@ footer #imgEPSI {
     color: red;
     animation: none;
 }
+
+.header-admition {
+    display: grid;
+}
