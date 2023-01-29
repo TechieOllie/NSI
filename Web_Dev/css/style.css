@@ -196,6 +196,103 @@ footer #imgEPSI {
     animation: none;
 }
 
-.header-admition {
+.admition {
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 50% 25%;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "admission1"
+        "admission2"
+        "admission3";
+}
+
+.admition1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". .";
+    grid-area: admission1;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    position: relative;
+    background-color: grey;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #fff;
+}
+
+.admition2 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . .";
+    grid-area: admission2;
+}
+
+.admition3 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". .";
+    grid-area: admission3;
+}
+
+.admition2 div {
+    border: #333 1px dotted;
+}
+
+.admition2 h1 {
+    color: var(--main-color);
+    margin-bottom: 6%;
+}
+
+.admition2 h3 {
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+.admition2 div a {
+    margin-top: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.admition2 div a:hover {
+    color: blueviolet;
+}
+
+.admition2 div p {
+    font-size: 12px;
+    margin: 6%;
+}
+
+.admition3 {
+    color: var(--main-color);
+}
+
+.admition3 h3 {
+    margin: 10%;
+    font-size: 30px;
+}
+
+.admition3 p {
+    margin: 10%;
+    font-size: 18px;
 }
