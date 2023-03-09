@@ -1,0 +1,7 @@
+noms, prénom, adresses, codes_postaux, villes, départements, numéro_de_téléphone, courriel
+Durant,Jean, 1 rue de la paix, 44150,Ancenis, 44, 0123456789, a@a.net
+Clancy,Tom, 4 rue de la joie,44000,Paris, 75, 4767890123,b@b.net
+Dupont,Paul, 2 rue de la paix, 31000,Toulouse, 31,1234567890, b@b.net
+Martin,Pierre, 3 rue de la paix, 31000,Toulouse, 31,2345678901, c@c.net
+Richard,Joseph, 4 rue de la paix,44000,Nantes, 44, 4567890123,b@b.net
+Richard,Joseph, 4 rue de la joie,44000,Vannes, 56, 4767890123,b@b.net
