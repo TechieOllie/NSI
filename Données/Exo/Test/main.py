@@ -4,7 +4,6 @@
 #registre = [1,{'nom':'HILIUM', 'prenom': 'Mohan', 'adresse':'224 avenue des fleurs 75001 Paaris', 'age': 67, 'taille':178, 'poids':81}]
 #print(registre[1]['nom'])
 #import csv
-#
 #filein = ''
 #with open(filein, encoding='UFT-8') as file:
 #    data = list(csv.reader(file))
