@@ -8,3 +8,5 @@ def compter_tout():
 
 if __name__ == "__main__":
     compter_tout()
+
+
