@@ -6,5 +6,6 @@ def compter_tout():
         answer.__setitem__(i, a)
     print(answer)
 
+
 if __name__ == "__main__":
     compter_tout()
