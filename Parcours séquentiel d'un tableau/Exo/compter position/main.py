@@ -4,7 +4,6 @@ def compter_position():
     end = 0
     for lettre in text:
         end += 1
-    for lettre in text:
         result = enumerate(lettre)
         x = list(result)
 
